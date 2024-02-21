@@ -203,18 +203,21 @@ text-align: left;
 }
 
 #feature-2{
-    position: relative;
+    /* position: relative;
     left: 180px;
-    top: 110px;
+    top: 110px; */
+    /* -left: 20%; */
     height: 340px;
-    width: 440px;
+    width: 300px;
 }
 
 #gif-div{
     height: 40px;
     width: 40px;
     position: relative;
-    left: 490px;
+    /* left: 63%; */
+    top: -25%;
+    left: 58%;
     background: url(download-icon.gif) center;
     background-size: 100%;
     z-index: 5;
@@ -251,8 +254,8 @@ padding-right: 12%;
 }
 
 #flex-left-2{
-    position: relative;
-    right: 7%;
+    padding-left: 18%;
+    padding-top: 7%;
 }
 
 #third-container-col-1{
@@ -503,7 +506,11 @@ padding-left: 30%;
     text-align: center;
 }
 
-#flex-left-2 {
-margin-bottom: 15%;
+/* #flex-left-2 {
+margin-bottom: 5%;
+} */
+
+#gif-div {
+visibility: hidden;
 }
 }
