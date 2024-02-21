@@ -71,14 +71,12 @@ body {
 
 #navbar-t{
     bottom: 10%;
-    /* padding: 20px 135px; */
     padding-left: 10%;
     padding-top: 2%;
     height: 100px fixed;
 }
 
 #navbar-r{
-    /* margin-top: 30px; */
     margin-top: 2%;
     margin-right: 12%;
 }
@@ -109,8 +107,6 @@ body {
     color: white;
     font-weight: 700;
     white-space: nowrap;
-    /* max-width: 650px; */
-
 }
 
 #middle-head-2{
@@ -152,15 +148,11 @@ body {
 }
 .flex-left{
     flex: 50%;
-    /* align-items: center; */
-    /* justify-items: center; */
-    /* justify-self: baseline; */
     
 }
 
 #flex-left-1{
 text-align: left;
-    flex-basis: 50%;
     padding-top: 12%;
     padding-left: 12%;
 }
@@ -169,27 +161,28 @@ text-align: left;
     flex: 50%;
 }
 
-/* #second-container-col-1{
-    color: white;
-} */
-
 #second-container-col-1-line-1{
     font-weight: bolder;
     position: relative;
-    /* left: 150px;
-    top: 170px; */
-
 }
 
 #second-container-col-1-line-2{
     position: relative;
-    /* left: 150px;
-    top: 180px; */
 }
 
-#feature-1{
+
+#flex-right-1{
     position: relative;
-    top: 40px;
+    
+}
+
+#feature-1-cluster{
+position: relative;
+    height: 380px;
+    width: 500px;
+}
+#feature-1{
+    position: absolute;
     height: 380px;
     width: 500px;
     z-index: 2;
@@ -197,51 +190,56 @@ text-align: left;
 #feature-1-video{
     height: 255px;
     width: 362px;
-    position: relative;
-    bottom: 285px;    
-    left: 67px;
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 13%;
+
 }
 
-#feature-2{
-    /* position: relative;
-    left: 180px;
-    top: 110px; */
-    /* -left: 20%; */
+#feature-2-cluster{
+    position: relative;
     height: 340px;
     width: 300px;
-    /* height: 50vh;
-    width: 48vh; */
+}
+#feature-2{
+    position: absolute;
+    height: 340px;
+    width: 300px;
 }
 
 #gif-div{
     height: 40px;
     width: 40px;
-    position: relative;
-    /* left: 63%; */
-    top: -25%;
-    left: 58%;
-    /* top: -17vh;
-    left: 38vh; */
+    position: absolute;
+    margin-top: 75%;
+    margin-left: 80%;
     background: url(download-icon.gif) center;
     background-size: 100%;
     z-index: 5;
 
 }
 
+#feature-3-cluster{
+    position: relative;
+    height: 380px;
+    width: 510px;
+    margin-top: 10%;
+}
+
 #feature-3{
     height: 380px;
     width: 510px;
-    position: relative;
-    top: 80px;
+    position: absolute;
+
     z-index: 2;
 }
 
 #feature-3-video{
     height: 320px;
     width: 310px;
-    position: relative;
-    bottom: 325px;
-    left: 97px;
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 19%;
 }
 
 #third-container{
@@ -265,16 +263,10 @@ padding-right: 12%;
 
 #third-container-col-1{
     color: white;
-    /* position: relative; */
-    /* top: 114px;
-    left: -4px; */
 }
 
 #third-container-col-1-line-1{
-        font-weight: bolder;
-        /* position: relative; */
-            
-            
+    font-weight: bolder; 
 }
 
 
@@ -290,20 +282,17 @@ padding-right: 12%;
 #fourth-container-col-1 {
     color: white;
     position: relative;
-    /* left: 150px; */
 }
 
 #fourth-container-col-1-line-1 {
     position: relative;
     font-weight: bolder;
-    /* top: 170px; */
 
 }
 
 #fourth-container-col-1-line-2 {
     position: relative;
     font-weight: bolder;
-    /* top: 180px; */
 
 }
 
@@ -320,8 +309,7 @@ padding-right: 12%;
 #fifth-container-col-1 {
     color: white;
     position: relative;
-    /* top: 114px;
-    left: -4px; */
+
 }
 
 #fifth-container-col-1-line-1 {
@@ -335,12 +323,10 @@ padding-right: 12%;
     height: 400px;
     width: 520px;
     position: relative;
-    /* left: 150px;
-    top: 60px; */
+
 }
 
 #flex-left-4{
-    text-align: right;
     padding-top: 5%;
 }
 #flex-right-4{
@@ -350,7 +336,6 @@ padding-right: 12%;
 
 #FAQ-container{
     height: fit-content;
-    /* max-height: max-content; */
     background-color: black;
     border-bottom: 7px solid #3e4145;   
     padding-bottom: 7%;
@@ -364,24 +349,18 @@ text-align: center;
     color: white;
     font-weight: bolder;
     position: relative;
-    /* left: 25%; */
     padding: 68px 0 20px 0;
 }
 
-/* .accordion{
-    --bs-accordion-btn-icon:url();
-} */
+
 .accordion-item{
-    margin: 0 150px 0 150px;
+    margin: 0 0 0 12%;
     border: 8px solid black;
     width: 75%;
     font-size: larger;
     
 }
-/* #accordionFlushExample{
-    display: flex;
-    flex-direction: column;
-} */
+
 
 .accordion-item {
     background-color: #303030;
@@ -447,6 +426,7 @@ padding-left: 30%;
 #contact-container{
     height: 405px;
     background-color: black;
+    background-size: cover;
 }
 
 #contact-container{
@@ -465,11 +445,20 @@ padding-left: 30%;
 
 
 #contact-box{
+    display: flex;
+    flex-wrap: wrap;
     margin: 83px 0 0 140px;
 }
 
 .col-2{
     margin-right: 60px;
+}
+
+#contact-col-1,#contact-col-2,#contact-col-3,#contact-col-4{
+    flex: 25%;
+}
+#footer-lang-box{
+    padding-left: 10%;
 }
 
 
@@ -490,25 +479,29 @@ padding-left: 30%;
 #second-container {
     flex-direction: column;
     height: fit-content;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #third-container{
     flex-direction: column;
     height: fit-content;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #fourth-container{
     flex-direction: column;
     height: fit-content;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #fifth-container{
     flex-direction: column;
     height: fit-content;
-    text-align: center;
+    /* text-align: center; */
+}
+
+#contact-container{
+    height: fit-content;
 }
 
 /* #flex-left-2 {
@@ -516,6 +509,68 @@ margin-bottom: 5%;
 } */
 
 #gif-div {
-visibility: hidden;
+height: 30px;
+width: 30px;
 }
+
+#feature-1-cluster{
+    height: 285px;
+    width: 375px;
+    margin-left: 15%
+
+}
+
+#feature-1{
+    height: 285px;
+    width: 375px;
+}
+
+#feature-2-cluster{
+    height: 255px;
+    width: 225px;
+    margin-left: 15%
+}
+#feature-2{
+    height: 255px;
+    width: 225px;
+}
+
+#feature-3-cluster{
+    height: 280px;
+    width: 382.5px;
+    margin-left: 15%
+}
+#feature-3{
+    height: 280px;
+    width: 382.5px;
+}
+
+#feature-3-video{
+    width: 232.5px;
+    height: 240px;
+}
+
+#fifth-container-pic{
+    height: 200px;
+    width: 260px;
+}
+
+#feature-1-video{
+    height: 191.25px;
+    width: 271.5px;
+}
+#flex-left-4 {
+        margin-left: 15%
+}
+#flex-left-1{
+    /* margin-left: 10%; */
+    text-align: center;
+    padding-top: 12%;
+    padding-left: 0%;
+}
+#flex-right-2,#flex-right-4{
+    /* margin-left: 22%; */
+    text-align: center;
+}
+
 }
