@@ -218,10 +218,10 @@ text-align: left;
     width: 40px;
     position: relative;
     /* left: 63%; */
-    /* top: -25%;
-    left: 58%; */
-    top: -17vh;
-    left: 38vh;
+    top: -25%;
+    left: 58%;
+    /* top: -17vh;
+    left: 38vh; */
     background: url(download-icon.gif) center;
     background-size: 100%;
     z-index: 5;
