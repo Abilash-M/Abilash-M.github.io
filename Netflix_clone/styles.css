@@ -401,23 +401,13 @@ text-align: center;
 #FAQ-part-3-line-1{
     color: white;
     
-    /* position: relative;
-        left: 50%;
-        
-        transform: translate(-50%, -50%); */
+
         text-align: center;
 }
-/* #signup-form-2 {
-    position: relative;
-    left: 12%;
-    display: flex;
-    align-items: center;
-} */
 
 .sign-up-flex{
     flex-direction: row;
     display: flex;
-    /* flex: 50%; */
     text-align: center;
     flex-wrap: wrap;
 padding-left: 30%;
@@ -462,7 +452,7 @@ padding-left: 30%;
 }
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
 #middle-head-1 {
         color: white;
         font-weight: 700;
@@ -491,22 +481,17 @@ padding-left: 30%;
 #fourth-container{
     flex-direction: column;
     height: fit-content;
-    /* text-align: center; */
 }
 
 #fifth-container{
     flex-direction: column;
     height: fit-content;
-    /* text-align: center; */
 }
 
 #contact-container{
     height: fit-content;
 }
 
-/* #flex-left-2 {
-margin-bottom: 5%;
-} */
 
 #gif-div {
 height: 30px;
@@ -563,14 +548,40 @@ width: 30px;
         margin-left: 15%
 }
 #flex-left-1{
-    /* margin-left: 10%; */
     text-align: center;
     padding-top: 12%;
     padding-left: 0%;
 }
 #flex-right-2,#flex-right-4{
-    /* margin-left: 22%; */
     text-align: center;
 }
 
+}
+
+
+@media only screen and (max-width: 500px) {
+#feature-1-cluster {
+
+    margin-left: 0%;
+}
+
+
+#feature-2-cluster {
+
+    margin-left: 0%
+}
+
+
+
+#feature-3-cluster {
+    height: 280px;
+    width: 382.5px;
+    margin-left: 0%;
+}
+
+
+/* 
+#flex-left-4 {
+    margin-left: 0%;
+} */
 }
