@@ -34,34 +34,34 @@ body {
 
 }
 
- .custom-select {
-     position: relative;
-     display: inline-block;
-     width: 180px;
- }
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+}
 
- .custom-select select {
-     background-color: initial;
-     font-weight: bold;
-     color: white;
-     border-color: darkgrey;
-     appearance: none;
-     -webkit-appearance: none;
-     -moz-appearance: none;
-     padding-right: 25px;
+.custom-select select {
+    background-color: initial;
+    font-weight: bold;
+    color: white;
+    border-color: darkgrey;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 25px;
 
- }
+}
 
 .custom-select::after {
-     content: '\25BC';
-     position: absolute;
-     top: 18%;
-     right: 10%;
-     transform: translateY(-50%);
-     transform: scale(0.5);
-     pointer-events: none;
-     color: white;
- }
+    content: '\25BC';
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    transform: translateY(-50%);
+    transform: scale(0.5);
+    pointer-events: none;
+    color: white;
+}
 
 #lang-box-down::after{
     position: absolute;
@@ -81,6 +81,15 @@ body {
     margin-right: 12%;
 }
 
+.sign-up-flex {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
 
 #signin-button{
     font-size: 13px;
@@ -91,16 +100,25 @@ body {
     width: 120px;
     height: 35px;
 }
-#signup-form {
-    display: flex;
-    align-items: center;
-    text-align: center;
+#get-started-button {
+    flex: 1;
+    text-align: left;
+}
+#signup-form{
+    margin-left: 20%;
 }
 
-#floatingInputGrid {
+.form-floating {
+    /* flex: 50%; */
     flex: 1;
-    margin-right: 10px;
+    flex-direction: row;
+    /* margin-right: 10px; */
+    width: 500px;
     min-width: 250px;
+}
+
+#flex-bottom{
+    margin-left: 20%;
 }
 
 #middle-head-1{
@@ -405,13 +423,7 @@ text-align: center;
         text-align: center;
 }
 
-.sign-up-flex{
-    flex-direction: row;
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-padding-left: 30%;
-}
+
 
 #contact-container{
     height: 405px;
@@ -555,7 +567,22 @@ width: 30px;
 #flex-right-2,#flex-right-4{
     text-align: center;
 }
+#get-started-button {
+    /* flex: 50%; */
+    flex: 1;
+    text-align: center;
+}
+#floatingInputGrid {
+    /* flex: 50%; */
+    width: auto;
+}
+.form-floating{
+text-align: center;
+}
 
+.sign-up-flex{
+    flex-direction: column;
+}
 }
 
 
@@ -578,7 +605,9 @@ width: 30px;
     width: 382.5px;
     margin-left: 0%;
 }
-
+#flex-bottom{
+    margin-left: 0%;
+}
 
 /* 
 #flex-left-4 {
